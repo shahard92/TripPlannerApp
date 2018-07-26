@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="wrap_content"
+    >
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginRight="5dp"
+        card_view:cardCornerRadius="10dp">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            >
+
+            <ImageView
+                android:id="@+id/city_photo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="16dp"
+                card_view:srcCompat="@drawable/telaviv" />
+
+            <TextView
+                android:id="@+id/city_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/city_photo"
+                android:layout_marginBottom="16dp"
+                android:text="Tel Aviv"
+                android:layout_marginTop="16dp"
+                android:textSize="30sp" />
+
+            <TextView
+                android:id="@+id/city_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/city_name"
+                android:layout_marginBottom="16dp"
+                android:scrollbars = "vertical"
+                android:text="@string/tel_aviv_it_s_the_party_city_of_israel_it_has_a_great_nightlife_and_great_peaches_dskjfnsakjfhksaldj_nksadjhf_kljsashd_kjh_sklsjffkljs_dhklsjdfh_kjsngfkjn_kjsdnfk_jsndkfjnsd_fjknsadk_gh_gnkas_jrvnslfn"
+                android:textSize="16sp" />
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</LinearLayout>

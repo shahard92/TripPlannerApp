@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CurrentTripFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+
+
+        <ImageView
+            android:id="@+id/current_trip_city_photo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="16dp"
+            />
+
+        <TextView
+            android:id="@+id/current_trip_city_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/current_trip_city_photo"
+            android:layout_marginBottom="16dp"
+            android:text="Tel Aviv"
+            android:layout_marginTop="16dp"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/current_trip_city_description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/current_trip_city_name"
+            android:layout_marginBottom="16dp"
+            android:scrollbars = "vertical"
+            android:text="@string/tel_aviv_it_s_the_party_city_of_israel_it_has_a_great_nightlife_and_great_peaches_dskjfnsakjfhksaldj_nksadjhf_kljsashd_kjh_sklsjffkljs_dhklsjdfh_kjsngfkjn_kjsdnfk_jsndkfjnsd_fjknsadk_gh_gnkas_jrvnslfn"
+            android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/current_trip_end_trip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/current_trip_city_description"
+        android:gravity="center"
+        android:layout_marginBottom="16dp"
+        android:text="@string/end_trip"
+        android:textSize="16sp" />
+
+    </RelativeLayout>
+

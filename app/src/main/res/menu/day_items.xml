@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/previous_day"
+        android:icon="@drawable/baseline_navigate_before_black_18dp"
+        android:title=""
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/current_day"
+        android:icon="@drawable/baseline_directions_walk_black_18dp"
+        android:title="@string/day1"
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/next_day"
+        android:icon="@drawable/baseline_navigate_next_black_18dp"
+        android:title=""
+        app:showAsAction="always|withText" />
+    <item
+        android:id="@+id/start_trip"
+        android:icon="@drawable/baseline_play_arrow_black_18dp"
+        android:title="Start trip"
+        app:showAsAction="always|withText" />
+</menu>

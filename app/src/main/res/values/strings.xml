@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">TripPlanner</string>
+    <string name="past_trips">past_trips</string>
+    <string name="past_tripss">Past trips</string>
+    <string name="current_trip">Current trip</string>
+    <string name="future_trips">Future trips</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="future_trip">Future trip</string>
+    <string name="past_trip">PastTrip</string>
+    <string name="tel_aviv_it_s_the_party_city_of_israel_it_has_a_great_nightlife_and_great_peaches_dskjfnsakjfhksaldj_nksadjhf_kljsashd_kjh_sklsjffkljs_dhklsjdfh_kjsngfkjn_kjsdnfk_jsndkfjnsd_fjknsadk_gh_gnkas_jrvnslfn">Tel Aviv it\'s the party city of israel. It has a great nightlife and great peaches, dskjfnsakjfhksaldj nksadjhf kljsashd kjh sklsjffkljs dhklsjdfh kjsngfkjn kjsdnfk jsndkfjnsd fjknsadk;gh gnkas;jrvnslfn</string>
+    <string name="preferenceTamplate">On a scale of 1-5 how interested are you in:</string>
+    <string name="day1">day1</string>
+    <string name="enter_text">Write here</string>
+    <string name="end_trip">End Trip</string>
+    <string-array name="cities_array">
+        <item>Tel Aviv</item>
+        <item>London</item>
+        <item>Espresso</item>
+        <item>Mocha</item>
+        <item>Caffè Americano</item>
+        <item>Cafe Zorro</item>
+</string-array>
+</resources>
